@@ -1,6 +1,6 @@
 package ObjectedOrientedDesignInJava;
 
-public class Animal {
+public abstract class Animal {
     int age;
     String sex;
     int weight;
@@ -19,7 +19,11 @@ public class Animal {
     void sleep()
     {
         System.out.println("I'm sleeping");
-
     }
+
+    public abstract void move();
+
+
+
 
 }
